@@ -2,15 +2,15 @@
 
 ## Requirements
 
-`**JDK**`
+**`JDK`**
  
-     $sudo apt install default-jdk
+     $ sudo apt install default-jdk
 
 ## Execution
 For Compiling
 
-     $javac customer.java
+     $ javac customer.java
 
 For Execution
 
-     $java customer
+     $ java customer
