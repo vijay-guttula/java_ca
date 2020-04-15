@@ -9,7 +9,7 @@ public class customer extends vehicle_type {
     }
 
     public void customer_input() throws Exception {
-        FileWriter f = new FileWriter("garage.txt", true);
+        FileWriter f = new FileWriter("./files/garage.txt", true);
         PrintWriter output = new PrintWriter(f);
         Scanner input = new Scanner(System.in);
 
@@ -29,7 +29,7 @@ public class customer extends vehicle_type {
     public void customer_output() throws IOException {
         System.out.println();
 
-        File file = new File("garage.txt");
+        File file = new File("./files/garage.txt");
         Scanner input = new Scanner(file);
         while (input.hasNext()) {
             String s = input.nextLine();
